@@ -1,7 +1,7 @@
 // Type Assertion // afirmacion, alegacion, re-afirmacion
-let cid: any = 1
+const cid: any = 1;
 
 // customerId will be number
-let customerId = <number>cid
+const customerId = <number>cid;
 // or
-let customerId1 = cid as number
+const customerId1 = cid as number;
