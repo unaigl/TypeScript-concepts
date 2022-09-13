@@ -35,6 +35,10 @@ export function logPerson(person: Person) {
 		}`
 	);
 }
+
+// In TypeScript, we can specify a function that can be called in different ways by writing overload signatures.
+// To do this, write some number of function signatures (usually two or more), followed by the body of the function:
+
 export function filterPersons(
 	persons: Person[],
 	personType: 'user',
