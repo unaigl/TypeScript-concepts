@@ -1,4 +1,5 @@
 // ** First value is always --> the type || key (only in Record) || type from we will select/create new type
+// https://www.typescriptlang.org/docs/handbook/utility-types.html
 
 // Await < Type >
 // Partial < Type >
